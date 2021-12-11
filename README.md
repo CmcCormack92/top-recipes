@@ -20,7 +20,7 @@ The following images shows the full web page:
 ![Second Page](./assets/images/seconpg-image.png)
 
 ## Website link
-[Top Recipes](https://andyp1223.github.io/Project1-Group3/)
+[Top Recipes](https://cmccormack92.github.io/top-recipes/)
 
 ## Refactors:
 With the functionality of APIs through JavaScript, Top Recipes uses event listener to search for recipes.
