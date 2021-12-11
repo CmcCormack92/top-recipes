@@ -1,0 +1,206 @@
+:root {
+    --primary-color: #BFC0C0;
+    --secondary-color: #EF8354;
+    --tertiary-color: #255f85;
+  }
+ 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+  }
+ 
+    header {
+      padding: 20px 35px;
+      background-color: var(--tertiary-color);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-position: 80%;
+      z-index: 9999;
+  }
+  
+    header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: var(--primary-color);
+      margin: 0; 
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  
+    header a {
+      text-decoration: none;
+      color: var(--primary-color);
+    }
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+    }
+
+    header nav {
+      margin: 7px 0;
+    }
+  
+   .navList {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+    }
+  
+    .navBtn {
+      padding: 10px 15px;
+      font-weight: lighter;
+      font-size: 1.55vw;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  
+    .navBtn:hover {
+      background: var(--primary-color);
+      color: var(--secondary-color);
+      border-radius: 15px;
+      text-shadow: none;
+    }  
+  
+    
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+ 
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+ 
+    .dropdown:hover .dropdown-content {display: block;}
+    
+
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+ form {
+   display: flex;
+   
+ }   
+ .hero {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  background-image: url("../images/hero-image.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero button {
+  background-color:#255f85;
+  color: white;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+    .hero input[type=text] {
+      float: right;
+      padding: 6px;
+      border: none;
+      font-size: 17px;
+      justify-content: center;
+      border-style: round;
+      border-radius: 5px;
+    }
+    
+.products {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  background-color: #255f85;
+}
+
+
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 25px;
+    margin-bottom: 50px;
+    background-color: var(--secondary-color);
+  }
+
+  .column button {
+    background-color: var(--tertiary-color);
+  }
+
+  .column h3 {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+   footer {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+   }
+   
+    footer h2 {
+      color: #BFC0C0;
+      font-size: xx-large;
+      font-family: cursive;
+      font-style: italic;
+    }
+
+    #secondPgHero {
+      display: none;
+    }
+
+
+    .noBtn {
+      display: none;
+    }
