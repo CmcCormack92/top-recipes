@@ -82,9 +82,10 @@ var recipeInfo = function (data) {
     storedTitle = title;
     recipeTitleEl.textContent = title;
     recipeImgEl.setAttribute("src", image);
+    console.log(data)
 
     for (var i = 0; i < data.extendedIngredients.length; i++) {
-        var ingredient = data.extendedIngredients[i].originalString;
+        var ingredient = data.extendedIngredients[i].original;
         var listItem = document.createElement("li");
         listItem.textContent = ingredient;
         ingredientListEl.appendChild(listItem);
